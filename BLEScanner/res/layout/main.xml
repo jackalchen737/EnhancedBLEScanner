@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <Button android:text="Start Scan"
+        android:id="@+id/startScan"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startScan"/>
+
+    <Button android:text="Stop Scan"
+        android:id="@+id/stopScan"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="stopScan"/>
+
+    <Button android:text="Clear"
+        android:id="@+id/clear"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clear"/>  
+        	    
+    <ListView android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:drawSelectorOnTop="false"
+    />
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BLEScanner</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="unknown_service">Unknown Service</string>
+    <string name="unknown_characteristic">Unknown Characterstic</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="StartScan">Start Scan</string>
+    <string name="StopScan">Stop Scan</string>
+    
+    
+    
+
+</resources>
